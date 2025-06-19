@@ -111,8 +111,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  /* margin-right: 76px; */
-  /* padding: 24px 0; */
   padding: 16px 0;
 }
 
@@ -121,7 +119,6 @@ button {
 }
 
 .header-menu-list {
-  /* display: flex; */
   display: none;
   gap: 40px;
 }
@@ -165,15 +162,11 @@ button {
 }
 
 .header-adress-list {
-  /* display: flex; */
   display: none;
   gap: 40px;
 }
 
 .header-adress-link {
-  /* font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em; */
   color: #434455;
   display: block;
   /* padding: 24px 0; */
@@ -356,11 +349,8 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* padding-top: 188px;
-  padding-bottom: 188px; */
   padding-top: 72px;
   padding-bottom: 72px;
-  /* max-width: 1440px; */
   max-width: 320px;
   margin: 0 auto;
 }
@@ -377,17 +367,13 @@ button {
 
 .hero-title {
   font-weight: 700;
-  /* font-size: 56px;
-  line-height: 1.07; */
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  /* max-width: 496px; */
   max-width: 216px;
   margin: 0 auto;
-  /* margin-bottom: 48px; */
   margin-bottom: 72px;
 }
 
@@ -418,8 +404,6 @@ button {
 /* ====PRINCIPLES==== */
 
 .principles {
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -438,12 +422,10 @@ button {
 .principles-list {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 24px; */
   gap: 72px;
 }
 
 .principles-item {
-  /* width: calc((100% - 72px) / 4); */
   width: 100%;
 }
 
@@ -467,8 +449,6 @@ button {
 
 .team {
   background-color: #f4f4fd;
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -492,7 +472,6 @@ button {
 .team-item {
   background-color: #ffffff;
   width: 100%;
-  /* width: calc((100% - 72px) / 4); */
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -553,8 +532,6 @@ button {
 /* ====PORTFOLIO==== */
 
 .portfolio {
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -568,20 +545,12 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 48px;
-  /* gap: 48px 24px; */
 }
 
 .portfolio-item {
   width: 100%;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  /* width: calc((100% - 48px) / 3); */
-  /* transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-
-/* .portfolio-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
 
 .portfolio-item:hover .portfolio-image-card {
   transform: translate(0);
@@ -626,15 +595,12 @@ button {
 
 .footer {
   background-color: #2e2f42;
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
 
 .container.footer-container {
   display: flex;
-  /* align-items: baseline; */
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -642,7 +608,6 @@ button {
 }
 
 .footer-content-logo {
-  /* margin-right: 120px; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -657,7 +622,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  /* display: inline-block; */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -675,7 +639,6 @@ button {
   letter-spacing: 0.02em;
   color: #fff;
   max-width: 264px;
-  /* margin-bottom: 16px; */
 }
 
 .footer-text {
@@ -700,7 +663,6 @@ button {
   letter-spacing: 0.02em;
   color: #fff;
   max-width: 264px;
-  /* margin-bottom: 16px; */
 }
 .footer-social-media-list {
   display: flex;
@@ -731,7 +693,6 @@ button {
 }
 
 .subscribe-form {
-  /* margin-left: auto; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -741,7 +702,6 @@ button {
 .footer-modal-form {
   display: flex;
   flex-direction: column;
-  /* gap: 24px; */
   gap: 16px;
 }
 
@@ -826,7 +786,6 @@ button {
 
 .modal {
   border-radius: 4px;
-  /* width: 408px; */
   width: 288px;
   min-height: 584px;
   background-color: #fcfcfc;
@@ -836,7 +795,6 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* padding: 72px 24px 24px 24px; */
   padding: 72px 16px 24px 16px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -959,7 +917,6 @@ button {
   resize: none;
   padding: 8px 16px;
   margin-top: 4px;
-  /* margin-bottom: 16px; */
   color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1016,7 +973,6 @@ button {
 }
 
 .modal-button {
-  /* margin-top: 24px; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
